@@ -1,0 +1,7 @@
+---
+applications:
+- name: sample-java-app
+  buildpack: java_buildpack
+  memory: 512M
+  instances: 1
+  random-route: true
